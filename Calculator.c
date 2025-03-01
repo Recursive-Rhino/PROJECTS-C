@@ -25,7 +25,7 @@ do{
     printf("NOW ,ENTER YOUR CHOICE :  ");
     scanf("%d",&choice);
     if(choice!=8) {
-      if(choice<6 && choice>7) { // POWER OPERATION WILL TAKE ONE NUMBER AND POWER OF THAT & FOR SQRT IT SKIPS IS BEACUSE IT ONLY TAKE ONE VALUE
+      if(choice<6 || choice>7) { // POWER OPERATION WILL TAKE ONE NUMBER AND POWER OF THAT & FOR SQRT IT SKIPS IS BEACUSE IT ONLY TAKE ONE VALUE
       printf("ENTER 1ST NUMBER : ");
       scanf("%d",&number1);
       printf("\nENTER 2ND NUMBER : ");
